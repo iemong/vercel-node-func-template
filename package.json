@@ -1,0 +1,19 @@
+{
+  "name": "vercel-node-func-template",
+  "version": "1.0.0",
+  "description": "versel function template for Node.js + TypeScript",
+  "main": "api/index.ts",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "author": "iemong <kiyoshidainagon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^1.9.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "@now/build-utils": "^2.7.0"
+  }
+}
